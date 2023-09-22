@@ -1,5 +1,5 @@
 //
-//  NSViewController.h
+//  ViewController.h
 //  CaulySDKCocoapods
 //
 //  Created by junhojohn on 09/22/2023.
@@ -8,6 +8,6 @@
 
 @import UIKit;
 
-@interface NSViewController : UIViewController
+@interface ViewController : UIViewController
 
 @end

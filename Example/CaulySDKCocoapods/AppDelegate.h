@@ -1,5 +1,5 @@
 //
-//  NSAppDelegate.h
+//  AppDelegate.h
 //  CaulySDKCocoapods
 //
 //  Created by junhojohn on 09/22/2023.
@@ -7,8 +7,9 @@
 //
 
 @import UIKit;
+@import CaulySDKCocoapods;
 
-@interface NSAppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 

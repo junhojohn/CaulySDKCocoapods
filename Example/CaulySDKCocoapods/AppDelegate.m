@@ -1,14 +1,14 @@
 //
-//  NSAppDelegate.m
+//  AppDelegate.m
 //  CaulySDKCocoapods
 //
 //  Created by junhojohn on 09/22/2023.
 //  Copyright (c) 2023 junhojohn. All rights reserved.
 //
 
-#import "NSAppDelegate.h"
+#import "AppDelegate.h"
 
-@implementation NSAppDelegate
+@implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {

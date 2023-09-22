@@ -1,18 +1,18 @@
 //
-//  NSViewController.m
+//  ViewController.m
 //  CaulySDKCocoapods
 //
 //  Created by junhojohn on 09/22/2023.
 //  Copyright (c) 2023 junhojohn. All rights reserved.
 //
 
-#import "NSViewController.h"
+#import "ViewController.h"
 
-@interface NSViewController ()
+@interface ViewController ()
 
 @end
 
-@implementation NSViewController
+@implementation ViewController
 
 - (void)viewDidLoad
 {
