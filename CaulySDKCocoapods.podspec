@@ -37,7 +37,7 @@ TODO: Add long description of the pod here.
   # }
 
    s.public_header_files = 'Pod/Classes/**/*.h'
-   s.ios.vendored_library = 'Libraries/libCauly-universal.a'
+   s.vendored_libraries = 'Libraries/libCauly-arm64.a', 'Libraries/libCauly-arm64_x86_64-simulator.a'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
