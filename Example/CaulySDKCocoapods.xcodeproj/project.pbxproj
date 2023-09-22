@@ -23,7 +23,6 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		7899C3ED2ABD4FC000E1BF5D /* Pods_CaulySDKCocoapods_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7899C3EC2ABD4FC000E1BF5D /* Pods_CaulySDKCocoapods_Example.framework */; };
-		7899C3EF2ABD4FDD00E1BF5D /* CaulySDKCocoapods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7899C3EE2ABD4FDD00E1BF5D /* CaulySDKCocoapods.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -78,7 +77,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7899C3EF2ABD4FDD00E1BF5D /* CaulySDKCocoapods.framework in Frameworks */,
 				7899C3ED2ABD4FC000E1BF5D /* Pods_CaulySDKCocoapods_Example.framework in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
@@ -502,6 +500,7 @@
 			baseConfigurationReference = 3C265EA49616DF9B150C87D0 /* Pods-CaulySDKCocoapods_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EXCLUDED_ARCHS = arm64;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CaulySDKCocoapods/CaulySDKCocoapods-Prefix.pch";
 				INFOPLIST_FILE = "CaulySDKCocoapods/CaulySDKCocoapods-Info.plist";
@@ -522,6 +521,7 @@
 			baseConfigurationReference = FB56CA382F542638A03A8350 /* Pods-CaulySDKCocoapods_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EXCLUDED_ARCHS = arm64;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CaulySDKCocoapods/CaulySDKCocoapods-Prefix.pch";
 				INFOPLIST_FILE = "CaulySDKCocoapods/CaulySDKCocoapods-Info.plist";
