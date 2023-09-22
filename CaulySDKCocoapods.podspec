@@ -36,8 +36,9 @@ TODO: Add long description of the pod here.
   #   'CaulySDKCocoapods' => ['CaulySDKCocoapods/Assets/*.png']
   # }
 
-   s.public_header_files = 'Pod/Classes/Cauly.h'
-   s.vendored_libraries = 'Libraries/libCauly-arm64.a', 'Libraries/libCauly-arm64_x86_64-simulator.a'
+   s.public_header_files = 'Pod/*.h'
+#   s.ios.xcconfig = { "HEADER_SEARCH_PATHS" => "$(PODS_ROOT)/myPathForHeadersOfTheStaticLibrary" }
+   s.vendored_libraries = 'Libraries/libCauly-arm64_x86_64-simulator.a'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
