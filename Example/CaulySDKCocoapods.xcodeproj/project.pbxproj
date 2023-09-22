@@ -500,7 +500,8 @@
 			baseConfigurationReference = 3C265EA49616DF9B150C87D0 /* Pods-CaulySDKCocoapods_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				EXCLUDED_ARCHS = arm64;
+				EXCLUDED_ARCHS = "";
+				"EXCLUDED_ARCHS[sdk=*]" = arm64;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CaulySDKCocoapods/CaulySDKCocoapods-Prefix.pch";
 				INFOPLIST_FILE = "CaulySDKCocoapods/CaulySDKCocoapods-Info.plist";
@@ -521,7 +522,8 @@
 			baseConfigurationReference = FB56CA382F542638A03A8350 /* Pods-CaulySDKCocoapods_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				EXCLUDED_ARCHS = arm64;
+				EXCLUDED_ARCHS = "";
+				"EXCLUDED_ARCHS[sdk=*]" = arm64;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CaulySDKCocoapods/CaulySDKCocoapods-Prefix.pch";
 				INFOPLIST_FILE = "CaulySDKCocoapods/CaulySDKCocoapods-Info.plist";
