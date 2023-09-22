@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'CaulySDKCocoapods_Example' do
+  pod 'CaulySDKCocoapods', :path => '../'
+
+  target 'CaulySDKCocoapods_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

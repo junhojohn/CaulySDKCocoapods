@@ -1,0 +1,16 @@
+PODS:
+  - CaulySDKCocoapods (0.1.0)
+
+DEPENDENCIES:
+  - CaulySDKCocoapods (from `../`)
+
+EXTERNAL SOURCES:
+  CaulySDKCocoapods:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CaulySDKCocoapods: 9d4db5c8d1127bee010833935eeb35ac77d580df
+
+PODFILE CHECKSUM: e4710655b84f528df51a3522a574fff30d0beba3
+
+COCOAPODS: 1.12.1

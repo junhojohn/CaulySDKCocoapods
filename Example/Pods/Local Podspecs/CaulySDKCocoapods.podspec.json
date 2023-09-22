@@ -1,0 +1,22 @@
+{
+  "name": "CaulySDKCocoapods",
+  "version": "0.1.0",
+  "summary": "A short description of CaulySDKCocoapods.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/junhojohn/CaulySDKCocoapods",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "junhojohn": "junhojohn@fsn.co.kr"
+  },
+  "source": {
+    "git": "https://github.com/junhojohn/CaulySDKCocoapods.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "CaulySDKCocoapods/Classes/**/*"
+}

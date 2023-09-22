@@ -1,0 +1,6 @@
+framework module CaulySDKCocoapods {
+  umbrella header "CaulySDKCocoapods-umbrella.h"
+
+  export *
+  module * { export * }
+}
