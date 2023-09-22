@@ -10,6 +10,12 @@
 		1360E4D3536636E279BA896BF6886A2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		41A3EBF925611546B617F17A1B3061E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		5E66721D1B9894FB91EF97CA0E7D74D7 /* Pods-CaulySDKCocoapods_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 739EF70CE7DEC199AD9B04C9EED51B79 /* Pods-CaulySDKCocoapods_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7899C3F62ABD775300E1BF5D /* CaulyNativeAd.h in Headers */ = {isa = PBXBuildFile; fileRef = 7899C3F02ABD775300E1BF5D /* CaulyNativeAd.h */; };
+		7899C3F72ABD775300E1BF5D /* CaulyNativeAdItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 7899C3F12ABD775300E1BF5D /* CaulyNativeAdItem.h */; };
+		7899C3F82ABD775300E1BF5D /* CaulyInterstitialAd.h in Headers */ = {isa = PBXBuildFile; fileRef = 7899C3F22ABD775300E1BF5D /* CaulyInterstitialAd.h */; };
+		7899C3F92ABD775300E1BF5D /* CaulyAdSetting.h in Headers */ = {isa = PBXBuildFile; fileRef = 7899C3F32ABD775300E1BF5D /* CaulyAdSetting.h */; };
+		7899C3FA2ABD775300E1BF5D /* CaulyAdView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7899C3F42ABD775300E1BF5D /* CaulyAdView.h */; };
+		7899C3FB2ABD775300E1BF5D /* Cauly.h in Headers */ = {isa = PBXBuildFile; fileRef = 7899C3F52ABD775300E1BF5D /* Cauly.h */; };
 		8BC2E410BE8B547DAA34D2A2AF695DD5 /* Pods-CaulySDKCocoapods_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AC57E49EA4F4539B435401CA94F134 /* Pods-CaulySDKCocoapods_Tests-dummy.m */; };
 		98AC0F59CBBC2B3093C97729ED9490C7 /* Pods-CaulySDKCocoapods_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B0900DD87ED0339EC84E65E3798B9F3E /* Pods-CaulySDKCocoapods_Example-dummy.m */; };
 		9A4690564381C29BDDB6F34FCF6D6BCD /* CaulySDKCocoapods-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 538E09D0E65D1E84A5AB2547899E597B /* CaulySDKCocoapods-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -38,7 +44,7 @@
 
 /* Begin PBXFileReference section */
 		0386087427FDAA9DA2CD6798BF53BB95 /* CaulySDKCocoapods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CaulySDKCocoapods.debug.xcconfig; sourceTree = "<group>"; };
-		045722C46156E06E31DACB44E25E740C /* Pods-CaulySDKCocoapods_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CaulySDKCocoapods_Tests"; path = Pods_CaulySDKCocoapods_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		045722C46156E06E31DACB44E25E740C /* Pods_CaulySDKCocoapods_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CaulySDKCocoapods_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B83D60E25BEDBD9C8B4D54700374C26 /* Pods-CaulySDKCocoapods_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CaulySDKCocoapods_Example-frameworks.sh"; sourceTree = "<group>"; };
 		0D1B941124B9D0B5E89E92049EC086C8 /* CaulySDKCocoapods-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CaulySDKCocoapods-Info.plist"; sourceTree = "<group>"; };
 		0D8AF315D379FEF6F42B8B223D7C08B4 /* Pods-CaulySDKCocoapods_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CaulySDKCocoapods_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -46,7 +52,7 @@
 		22114BA4AA10DC26934E8D6F7D247635 /* Pods-CaulySDKCocoapods_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CaulySDKCocoapods_Tests-Info.plist"; sourceTree = "<group>"; };
 		2E66DFB3718EEB663FB832BACF926FE8 /* CaulySDKCocoapods.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CaulySDKCocoapods.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		2FACF56F902C5D20144FE7746099CAE3 /* Pods-CaulySDKCocoapods_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CaulySDKCocoapods_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3F152B9342679EC9B31DC61C3FB7B6CE /* CaulySDKCocoapods */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CaulySDKCocoapods; path = CaulySDKCocoapods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F152B9342679EC9B31DC61C3FB7B6CE /* CaulySDKCocoapods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CaulySDKCocoapods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F1899EB38AC46FE91EF2B5A6510CDDC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4CFFA977E69A56908EB120BF2A699451 /* Pods-CaulySDKCocoapods_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CaulySDKCocoapods_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		538E09D0E65D1E84A5AB2547899E597B /* CaulySDKCocoapods-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CaulySDKCocoapods-umbrella.h"; sourceTree = "<group>"; };
@@ -59,7 +65,13 @@
 		733C0BCBE7950F6AB26AC97DAA380606 /* Pods-CaulySDKCocoapods_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CaulySDKCocoapods_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		739EF70CE7DEC199AD9B04C9EED51B79 /* Pods-CaulySDKCocoapods_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CaulySDKCocoapods_Example-umbrella.h"; sourceTree = "<group>"; };
 		7665A1B5194172309AFDA2D96563D974 /* CaulySDKCocoapods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CaulySDKCocoapods.release.xcconfig; sourceTree = "<group>"; };
-		810B34E33905E7F7E4C137C02CB6C8D0 /* Pods-CaulySDKCocoapods_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CaulySDKCocoapods_Example"; path = Pods_CaulySDKCocoapods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7899C3F02ABD775300E1BF5D /* CaulyNativeAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CaulyNativeAd.h; path = CaulySDKCocoapods/Classes/CaulyNativeAd.h; sourceTree = "<group>"; };
+		7899C3F12ABD775300E1BF5D /* CaulyNativeAdItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CaulyNativeAdItem.h; path = CaulySDKCocoapods/Classes/CaulyNativeAdItem.h; sourceTree = "<group>"; };
+		7899C3F22ABD775300E1BF5D /* CaulyInterstitialAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CaulyInterstitialAd.h; path = CaulySDKCocoapods/Classes/CaulyInterstitialAd.h; sourceTree = "<group>"; };
+		7899C3F32ABD775300E1BF5D /* CaulyAdSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CaulyAdSetting.h; path = CaulySDKCocoapods/Classes/CaulyAdSetting.h; sourceTree = "<group>"; };
+		7899C3F42ABD775300E1BF5D /* CaulyAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CaulyAdView.h; path = CaulySDKCocoapods/Classes/CaulyAdView.h; sourceTree = "<group>"; };
+		7899C3F52ABD775300E1BF5D /* Cauly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Cauly.h; path = CaulySDKCocoapods/Classes/Cauly.h; sourceTree = "<group>"; };
+		810B34E33905E7F7E4C137C02CB6C8D0 /* Pods_CaulySDKCocoapods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CaulySDKCocoapods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8647123372A6609BA795DE4158A590DD /* Pods-CaulySDKCocoapods_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CaulySDKCocoapods_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		90C9315538C6B54C9DAF3A4F9ECC2E0F /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = CaulySDKCocoapods/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		9B0A0BDEAF2E19C4FA196C603960520E /* CaulySDKCocoapods.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CaulySDKCocoapods.modulemap; sourceTree = "<group>"; };
@@ -103,6 +115,12 @@
 		1CC7B16CE656A617B22C8DF1A36462A0 /* CaulySDKCocoapods */ = {
 			isa = PBXGroup;
 			children = (
+				7899C3F52ABD775300E1BF5D /* Cauly.h */,
+				7899C3F32ABD775300E1BF5D /* CaulyAdSetting.h */,
+				7899C3F42ABD775300E1BF5D /* CaulyAdView.h */,
+				7899C3F22ABD775300E1BF5D /* CaulyInterstitialAd.h */,
+				7899C3F02ABD775300E1BF5D /* CaulyNativeAd.h */,
+				7899C3F12ABD775300E1BF5D /* CaulyNativeAdItem.h */,
 				90C9315538C6B54C9DAF3A4F9ECC2E0F /* ReplaceMe.m */,
 				D541411016CA48429EADA8B4C42B338B /* Pod */,
 				D829C4FEF64C978623048DA2B13C463B /* Support Files */,
@@ -216,9 +234,9 @@
 		F03D4089CD1183B911B74F19234B1520 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3F152B9342679EC9B31DC61C3FB7B6CE /* CaulySDKCocoapods */,
-				810B34E33905E7F7E4C137C02CB6C8D0 /* Pods-CaulySDKCocoapods_Example */,
-				045722C46156E06E31DACB44E25E740C /* Pods-CaulySDKCocoapods_Tests */,
+				3F152B9342679EC9B31DC61C3FB7B6CE /* CaulySDKCocoapods.framework */,
+				810B34E33905E7F7E4C137C02CB6C8D0 /* Pods_CaulySDKCocoapods_Example.framework */,
+				045722C46156E06E31DACB44E25E740C /* Pods_CaulySDKCocoapods_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -246,7 +264,13 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7899C3FB2ABD775300E1BF5D /* Cauly.h in Headers */,
 				9A4690564381C29BDDB6F34FCF6D6BCD /* CaulySDKCocoapods-umbrella.h in Headers */,
+				7899C3F72ABD775300E1BF5D /* CaulyNativeAdItem.h in Headers */,
+				7899C3F92ABD775300E1BF5D /* CaulyAdSetting.h in Headers */,
+				7899C3FA2ABD775300E1BF5D /* CaulyAdView.h in Headers */,
+				7899C3F82ABD775300E1BF5D /* CaulyInterstitialAd.h in Headers */,
+				7899C3F62ABD775300E1BF5D /* CaulyNativeAd.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +293,7 @@
 			);
 			name = "Pods-CaulySDKCocoapods_Example";
 			productName = Pods_CaulySDKCocoapods_Example;
-			productReference = 810B34E33905E7F7E4C137C02CB6C8D0 /* Pods-CaulySDKCocoapods_Example */;
+			productReference = 810B34E33905E7F7E4C137C02CB6C8D0 /* Pods_CaulySDKCocoapods_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		91C4C5A750F72210489B77BEB8A361A4 /* CaulySDKCocoapods */ = {
@@ -287,7 +311,7 @@
 			);
 			name = CaulySDKCocoapods;
 			productName = CaulySDKCocoapods;
-			productReference = 3F152B9342679EC9B31DC61C3FB7B6CE /* CaulySDKCocoapods */;
+			productReference = 3F152B9342679EC9B31DC61C3FB7B6CE /* CaulySDKCocoapods.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		BF7EF2C2A6A5A485BD798B70F4664B02 /* Pods-CaulySDKCocoapods_Tests */ = {
@@ -306,7 +330,7 @@
 			);
 			name = "Pods-CaulySDKCocoapods_Tests";
 			productName = Pods_CaulySDKCocoapods_Tests;
-			productReference = 045722C46156E06E31DACB44E25E740C /* Pods-CaulySDKCocoapods_Tests */;
+			productReference = 045722C46156E06E31DACB44E25E740C /* Pods_CaulySDKCocoapods_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -422,7 +446,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-CaulySDKCocoapods_Example/Pods-CaulySDKCocoapods_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-CaulySDKCocoapods_Example/Pods-CaulySDKCocoapods_Example.modulemap";
@@ -455,7 +479,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/CaulySDKCocoapods/CaulySDKCocoapods-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/CaulySDKCocoapods/CaulySDKCocoapods-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/CaulySDKCocoapods/CaulySDKCocoapods.modulemap";
 				PRODUCT_MODULE_NAME = CaulySDKCocoapods;
@@ -520,7 +544,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -547,7 +571,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-CaulySDKCocoapods_Tests/Pods-CaulySDKCocoapods_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-CaulySDKCocoapods_Tests/Pods-CaulySDKCocoapods_Tests.modulemap";
@@ -581,7 +605,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-CaulySDKCocoapods_Tests/Pods-CaulySDKCocoapods_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-CaulySDKCocoapods_Tests/Pods-CaulySDKCocoapods_Tests.modulemap";
@@ -651,7 +675,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -680,7 +704,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/CaulySDKCocoapods/CaulySDKCocoapods-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/CaulySDKCocoapods/CaulySDKCocoapods-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/CaulySDKCocoapods/CaulySDKCocoapods.modulemap";
 				PRODUCT_MODULE_NAME = CaulySDKCocoapods;
@@ -712,7 +736,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-CaulySDKCocoapods_Example/Pods-CaulySDKCocoapods_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-CaulySDKCocoapods_Example/Pods-CaulySDKCocoapods_Example.modulemap";
