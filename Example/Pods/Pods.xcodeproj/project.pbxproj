@@ -10,12 +10,6 @@
 		1360E4D3536636E279BA896BF6886A2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		41A3EBF925611546B617F17A1B3061E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		5E66721D1B9894FB91EF97CA0E7D74D7 /* Pods-CaulySDKCocoapods_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 739EF70CE7DEC199AD9B04C9EED51B79 /* Pods-CaulySDKCocoapods_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		789CA3312ABD4BBC0061A8FD /* CaulyNativeAdItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 789CA32B2ABD4BBC0061A8FD /* CaulyNativeAdItem.h */; };
-		789CA3322ABD4BBC0061A8FD /* CaulyAdView.h in Headers */ = {isa = PBXBuildFile; fileRef = 789CA32C2ABD4BBC0061A8FD /* CaulyAdView.h */; };
-		789CA3332ABD4BBC0061A8FD /* CaulyNativeAd.h in Headers */ = {isa = PBXBuildFile; fileRef = 789CA32D2ABD4BBC0061A8FD /* CaulyNativeAd.h */; };
-		789CA3342ABD4BBC0061A8FD /* Cauly.h in Headers */ = {isa = PBXBuildFile; fileRef = 789CA32E2ABD4BBC0061A8FD /* Cauly.h */; };
-		789CA3352ABD4BBC0061A8FD /* CaulyAdSetting.h in Headers */ = {isa = PBXBuildFile; fileRef = 789CA32F2ABD4BBC0061A8FD /* CaulyAdSetting.h */; };
-		789CA3362ABD4BBC0061A8FD /* CaulyInterstitialAd.h in Headers */ = {isa = PBXBuildFile; fileRef = 789CA3302ABD4BBC0061A8FD /* CaulyInterstitialAd.h */; };
 		8BC2E410BE8B547DAA34D2A2AF695DD5 /* Pods-CaulySDKCocoapods_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AC57E49EA4F4539B435401CA94F134 /* Pods-CaulySDKCocoapods_Tests-dummy.m */; };
 		98AC0F59CBBC2B3093C97729ED9490C7 /* Pods-CaulySDKCocoapods_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B0900DD87ED0339EC84E65E3798B9F3E /* Pods-CaulySDKCocoapods_Example-dummy.m */; };
 		9A4690564381C29BDDB6F34FCF6D6BCD /* CaulySDKCocoapods-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 538E09D0E65D1E84A5AB2547899E597B /* CaulySDKCocoapods-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -65,12 +59,6 @@
 		733C0BCBE7950F6AB26AC97DAA380606 /* Pods-CaulySDKCocoapods_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CaulySDKCocoapods_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		739EF70CE7DEC199AD9B04C9EED51B79 /* Pods-CaulySDKCocoapods_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CaulySDKCocoapods_Example-umbrella.h"; sourceTree = "<group>"; };
 		7665A1B5194172309AFDA2D96563D974 /* CaulySDKCocoapods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CaulySDKCocoapods.release.xcconfig; sourceTree = "<group>"; };
-		789CA32B2ABD4BBC0061A8FD /* CaulyNativeAdItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CaulyNativeAdItem.h; path = CaulySDKCocoapods/Classes/CaulyNativeAdItem.h; sourceTree = "<group>"; };
-		789CA32C2ABD4BBC0061A8FD /* CaulyAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CaulyAdView.h; path = CaulySDKCocoapods/Classes/CaulyAdView.h; sourceTree = "<group>"; };
-		789CA32D2ABD4BBC0061A8FD /* CaulyNativeAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CaulyNativeAd.h; path = CaulySDKCocoapods/Classes/CaulyNativeAd.h; sourceTree = "<group>"; };
-		789CA32E2ABD4BBC0061A8FD /* Cauly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Cauly.h; path = CaulySDKCocoapods/Classes/Cauly.h; sourceTree = "<group>"; };
-		789CA32F2ABD4BBC0061A8FD /* CaulyAdSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CaulyAdSetting.h; path = CaulySDKCocoapods/Classes/CaulyAdSetting.h; sourceTree = "<group>"; };
-		789CA3302ABD4BBC0061A8FD /* CaulyInterstitialAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CaulyInterstitialAd.h; path = CaulySDKCocoapods/Classes/CaulyInterstitialAd.h; sourceTree = "<group>"; };
 		810B34E33905E7F7E4C137C02CB6C8D0 /* Pods-CaulySDKCocoapods_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CaulySDKCocoapods_Example"; path = Pods_CaulySDKCocoapods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8647123372A6609BA795DE4158A590DD /* Pods-CaulySDKCocoapods_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CaulySDKCocoapods_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		90C9315538C6B54C9DAF3A4F9ECC2E0F /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = CaulySDKCocoapods/Classes/ReplaceMe.m; sourceTree = "<group>"; };
@@ -115,12 +103,6 @@
 		1CC7B16CE656A617B22C8DF1A36462A0 /* CaulySDKCocoapods */ = {
 			isa = PBXGroup;
 			children = (
-				789CA32E2ABD4BBC0061A8FD /* Cauly.h */,
-				789CA32F2ABD4BBC0061A8FD /* CaulyAdSetting.h */,
-				789CA32C2ABD4BBC0061A8FD /* CaulyAdView.h */,
-				789CA3302ABD4BBC0061A8FD /* CaulyInterstitialAd.h */,
-				789CA32D2ABD4BBC0061A8FD /* CaulyNativeAd.h */,
-				789CA32B2ABD4BBC0061A8FD /* CaulyNativeAdItem.h */,
 				90C9315538C6B54C9DAF3A4F9ECC2E0F /* ReplaceMe.m */,
 				D541411016CA48429EADA8B4C42B338B /* Pod */,
 				D829C4FEF64C978623048DA2B13C463B /* Support Files */,
@@ -264,13 +246,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				789CA3362ABD4BBC0061A8FD /* CaulyInterstitialAd.h in Headers */,
-				789CA3322ABD4BBC0061A8FD /* CaulyAdView.h in Headers */,
-				789CA3312ABD4BBC0061A8FD /* CaulyNativeAdItem.h in Headers */,
-				789CA3342ABD4BBC0061A8FD /* Cauly.h in Headers */,
 				9A4690564381C29BDDB6F34FCF6D6BCD /* CaulySDKCocoapods-umbrella.h in Headers */,
-				789CA3332ABD4BBC0061A8FD /* CaulyNativeAd.h in Headers */,
-				789CA3352ABD4BBC0061A8FD /* CaulyAdSetting.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
