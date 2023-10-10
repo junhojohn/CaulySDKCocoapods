@@ -38,7 +38,7 @@ Pod::Spec.new do |s|
 
 #   s.public_header_files = 'Pod/*.h'
 #   s.ios.xcconfig = { "HEADER_SEARCH_PATHS" => "$(PODS_ROOT)/myPathForHeadersOfTheStaticLibrary" }
-   s.vendored_libraries = 'Libraries/libCauly-arm64_x86_64-simulator.a'
+   s.vendored_libraries = 'Libraries/libCauly-arm64_x86_64-simulator.a', 'Libraries/libCauly-universal.a', 'Libraries/libCauly-arm64.a'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
